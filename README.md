@@ -1,7 +1,7 @@
 #Learning VueJs
 ## Here will contain all projects from start to finish on learning vuejs
 
-What to learn:
+What left to learn:
 
 - Vue Routers
 - Vuex
