@@ -1,6 +1,6 @@
 <template>
   <div class="p-10">  
-    <div class="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer transform hover:scale-110">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer transform hover:scale-110 duration-150">
       <img class="image mx-auto block" :src="data.image_url" :alt="data.name">
       <div class="px-6 py-4">
         <div class="font-bold mb-2">{{data.name}}</div>
