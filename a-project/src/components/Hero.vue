@@ -1,9 +1,9 @@
 <template>
-    <div class="flex items-center justify-center flex-col hero-height bg-gray-100">
-        <h1 class="text-4xl font-bold">A <span class="text-blue-500">fine</span> selection of beers.</h1>
+    <div class="flex items-center justify-center flex-col h-screen bg-gray-100">
+        <h1 class="text-6xl font-bold">A <span class="animate-pulse" style="color: #B47AEA">fine</span> selection of beers.</h1>
         <div>
-            <a href=""><button class="font-bold text-white bg-blue-500 m-4 py-2 px-4 rounded-lg" style="min-width:100px">GitHub</button></a>
-            <a href=""><button class="font-bold text-white bg-blue-500 m-4 py-2 px-4 rounded-lg" style="min-width:100px;">Kobi</button></a>
+            <a href=""><button class="font-bold text-white text-2xl bg-blue-500 m-4 py-4 px-8 rounded-lg transform hover:scale-110" style="min-width:150px">GitHub</button></a>
+            <a href=""><button class="font-bold text-white text-2xl bg-blue-500 m-4 py-4 px-8 rounded-lg transform hover:scale-110" style="min-width:150px;">Kobi</button></a>
         </div>
     </div>
 </template>
