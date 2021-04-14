@@ -1,13 +1,13 @@
 <template>
 <div id="div" class="h-screen w-screen">
   <div class="flex items-center justify-center h-screen">
-    <button class="py-2 px-4 bg-red-400" style="position: fixed; top: 10px; left: 10px;" @click="closeOpenInformation">Close</button>
+    <button class="py-2 px-4 bg-red-400 rounded-lg font-bold text-white transform hover:scale-110 duration-300" style="position: fixed; top: 10px; left: 10px;" @click="closeOpenInformation">Close</button>
       <div class="grid lg:grid-cols-2 mx-20 lg:mx-80">
           <div>
             <img :src="object.image_url" class="w-20 block mx-auto" />
             <h3 class="font-bold text-2xl text-center">{{object.name}}</h3>
           </div>
-          <div class="bg-black text-white rounded shadow p-5">
+          <div class="bg-white text-black rounded shadow-lg p-5">
             <p><span class="font-bold">Tagline</span>: {{object.tagline}}</p>
             <p><span class="font-bold">First brewed</span>: {{object.first_brewed}}</p>
             <p><span class="font-bold">Description</span>: {{object.description}}</p>

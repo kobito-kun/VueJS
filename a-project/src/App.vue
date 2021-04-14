@@ -41,7 +41,3 @@ export default {
   },
 }
 </script>
-
-<style>
-@import './assets/all.css';
-</style>
