@@ -1,6 +1,6 @@
 <template>
-<div id="div" class="h-screen w-screen">
-  <div class="flex items-center justify-center h-screen">
+<div id="div" class="h-screen w-screen duration-300">
+  <div class="flex items-center justify-center h-screen duration-300">
     <button class="py-2 px-4 bg-red-400 rounded-lg font-bold text-white transform hover:scale-110 duration-300" style="position: fixed; top: 10px; left: 10px;" @click="closeOpenInformation">Close</button>
       <div class="grid lg:grid-cols-2 mx-20 lg:mx-80">
           <div>
